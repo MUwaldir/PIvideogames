@@ -1,0 +1,37 @@
+.landing-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://media.gq-magazine.co.uk/photos/645b5c31d8c083bf85029042/16:9/pass/100-best-games-hp-b.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .containerLanding {
+    text-align: center;
+    
+  }
+  
+  h1 {
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #ff5500;
+    color: #fff;
+    font-size: 24px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #cc4400;
+  }
+  

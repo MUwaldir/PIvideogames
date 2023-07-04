@@ -1,34 +1,34 @@
 // REDUCER
 
-import {  GET_VIDEOGAME } from "../actions";
-
-/* Importa las action-types aquí. */
+import { GET_DATABD, GET_DATANAME, GET_VIDEOGAME } from "../actions";
 
 const initialState = {
-    VideoGames: [],
-    myFavorites: [],
-    figures:[]
+  VideoGames: [],
+  dataName: [],
+  dataVideogames: [],
+  dataBD: [],
 };
 
-
 const rootReducer = (state = initialState, action) => {
-   switch (
-      action.type
-      
-   ) {
+  switch (action.type) {
+    case GET_VIDEOGAME:
+      return {
+        ...state,
+        VideoGames: action.payload,
+        dataVideogames: action.payload,
+      };
 
-         case GET_VIDEOGAME:
-            
-            return { ...state, VideoGames: action.payload };
-        
-            
+    case GET_DATANAME:
+      return { ...state, dataName: action.payload };
 
-        default:
-            return {
-                ...state
-            }
+    case GET_DATABD:
+      return { ...state, dataBD: action.payload };
 
-   }
+    default:
+      return {
+        ...state,
+      };
+  }
 };
 
 export default rootReducer;

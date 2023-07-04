@@ -1,61 +1,83 @@
 import axios from "axios";
 
-export const GET_VIDEOGAME = 'GET_VIDEOGAME';
-// export const ADD_VIDEOGAME = 'ADD_VIDEOGAME';
-// export const REMOVE_VIDEOGAME = 'REMOVE_VIDEOGAME';
-
-// const URL = 'http://localhost:3001/videogames';
+export const GET_VIDEOGAME = "GET_VIDEOGAME";
+export const SORT_VIDEOGAMES = "SORT_VIDEOGAMES";
+export const GET_DATANAME = "GET _DATANAME";
+export const GET_DATABD = "GET_DATABD";
+export const GET_DETAILID = "GET_DETAILID";
 
 // codgo  async await
 export const getVideogame = () => {
- return async (dispatch) => {
-  try {
-    const {data} = await axios.get('http://localhost:3001/videogames');
-    dispatch({
-      type: GET_VIDEOGAME,
-      payload: data,
-   });
-  } catch (error) {
-    throw new error(error.message)
-  }
- }
-}
+  return async (dispatch) => {
+    try {
+      const { data } = await axios.get("http://localhost:3001/videogames");
+      dispatch({
+        type: GET_VIDEOGAME,
+        payload: data,
+      });
+    } catch (error) {
+      throw new error(error.message);
+    }
+  };
+};
 
+export const getdataName = (name) => {
+  return async (dispatch) => {
+    try {
+      const { data } = await axios.get(
+        `http://localhost:3001/videogame/name?nombre=${name}`
+      );
+      dispatch({
+        type: GET_DATANAME,
+        payload: data,
+      });
+    } catch (error) {
+      throw new error(error.message);
+    }
+  };
+};
 
-// export const addVideogame = (videogame) => {
-  
-//   return async (dispatch) => {
-//     try {
-      
-//       const {data} = await axios.post(URL, videogame);
-       
-//           dispatch({
-//              type: ADD_VIDEOGAME,
-//              payload: data,
-//           });
+export const getDataBD = () => {
+  return async (dispatch) => {
+    try {
+      const { data } = await axios.get(
+        "http://localhost:3001/videogames/databd"
+      );
 
-//     } catch (error) {
-//       throw new error(error.message)
-//     }
-  
-//   };
-// };
+      const formattedData = data.map((ge) => ({
+        id: ge.id,
+        nombre: ge.nombre,
+        descripcion: ge.descripcion,
+        fecha_de_lanzamiento: ge.fecha_de_lanzamiento,
+        idApi: ge.idApi ? ge.idApi : ge.id,
+        imagen: ge.imagen,
+        plataformas: ge.plataformas,
+        rating: ge.rating,
+        genre: ge.genres.map((gen) => gen.nombre),
+      }));
 
+      dispatch({
+        type: GET_DATABD,
+        payload: formattedData,
+      });
+    } catch (error) {
+      throw new error(error.message);
+    }
+  };
+};
 
-
-// export const removeFav = (id) => {
-//   const endpoint = 'http://localhost:3001/rickandmorty/fav/' + id;
-//   return (dispatch) => {
-//      axios.delete(endpoint).then(({ data }) => {
-//         return dispatch({
-//            type: REMOVE_FAV,
-//            payload: data,
-//      });
-//      });
-//   };
-  
-// };
-
-
-
-
+export const getDetailID = (id) => {
+  return async (dispatch) => {
+    try {
+      const { data } = await axios.get(
+        `http://localhost:3001/videogames/${id}`
+      );
+      dispatch({
+        type: GET_DETAILID,
+        payload: data,
+      });
+    } catch (error) {
+      throw new error(error.message);
+    }
+  };
+};

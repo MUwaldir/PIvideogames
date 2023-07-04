@@ -1,0 +1,79 @@
+.ContainerForm{
+  padding: .5rem;
+}
+.form-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background: linear-gradient(to bottom right, #000000, #4f148a, #000000);
+  border-radius: 8px;
+  overflow: hidden; /*  evita que s edesborde el contenido*/
+  box-sizing: border-box;
+}
+
+.form-group {
+  margin-bottom: 16px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: white;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+  outline: none;
+  box-shadow: 0 0 4px rgba(255, 255, 255, 0.8);
+}
+
+button[type="submit"] {
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.error-message {
+  color: red;
+}
+
+.boxfecharating{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+input , textarea{
+  box-sizing: border-box;
+}
+
+
+/* Responsive Styles */
+
+@media (max-width: 600px) {
+  .form-container {
+    max-width: 100%;
+    padding: 2rem;
+  }
+  .ContainerForm{
+    padding: .2rem;
+  }
+}

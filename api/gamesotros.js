@@ -8,10 +8,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/456/456dea5e1c7e3cd07060c14e96612001.jpg",
     "fecha_de_lanzamiento": "2013-09-17",
     "rating": 4.47,
-    "genre": [
-      "Action",
-      "Adventure"
-    ]
+    "genre": "Action"
   },
   {
     "id": 1,
@@ -22,11 +19,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg",
     "fecha_de_lanzamiento": "2015-05-18",
     "rating": 4.66,
-    "genre": [
-      "Action",
-      "Adventure",
-      "RPG"
-    ]
+    "genre": "Action"
   },
   {
     "id": 2,
@@ -37,10 +30,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/328/3283617cb7d75d67257fc58339188742.jpg",
     "fecha_de_lanzamiento": "2011-04-18",
     "rating": 4.61,
-    "genre": [
-      "Shooter",
-      "Puzzle"
-    ]
+    "genre": "Shooter"
   },
   {
     "id": 3,
@@ -51,10 +41,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/021/021c4e21a1824d2526f925eff6324653.jpg",
     "fecha_de_lanzamiento": "2013-03-05",
     "rating": 4.05,
-    "genre": [
-      "Action",
-      "Adventure"
-    ]
+    "genre": "Action"
   },
   {
     "id": 4,
@@ -65,10 +52,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/736/73619bd336c894d6941d926bfd563946.jpg",
     "fecha_de_lanzamiento": "2012-08-21",
     "rating": 3.57,
-    "genre": [
-      "Action",
-      "Shooter"
-    ]
+    "genre": "Action"
   },
   {
     "id": 5,
@@ -79,10 +63,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/7fa/7fa0b586293c5861ee32490e953a4996.jpg",
     "fecha_de_lanzamiento": "2007-10-09",
     "rating": 4.51,
-    "genre": [
-      "Adventure",
-      "Puzzle"
-    ]
+    "genre": "Adventure"
   },
   {
     "id": 6,
@@ -93,10 +74,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/d58/d588947d4286e7b5e0e12e1bea7d9844.jpg",
     "fecha_de_lanzamiento": "2009-11-17",
     "rating": 4.09,
-    "genre": [
-      "Action",
-      "Shooter"
-    ]
+    "genre": "Action"
   },
   {
     "id": 7,
@@ -107,10 +85,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/7cf/7cfc9220b401b7a300e409e539c9afd5.jpg",
     "fecha_de_lanzamiento": "2011-11-11",
     "rating": 4.42,
-    "genre": [
-      "Action",
-      "RPG"
-    ]
+    "genre": "Action"
   },
   {
     "id": 8,
@@ -121,10 +96,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/fc1/fc1307a2774506b5bd65d7e8424664a7.jpg",
     "fecha_de_lanzamiento": "2013-03-26",
     "rating": 4.39,
-    "genre": [
-      "Action",
-      "Shooter"
-    ]
+    "genre": "Action"
   },
   {
     "id": 9,
@@ -135,10 +107,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/511/5118aff5091cb3efec399c808f8c598f.jpg",
     "fecha_de_lanzamiento": "2018-10-26",
     "rating": 4.59,
-    "genre": [
-      "Action",
-      "Adventure"
-    ]
+    "genre": "Action"
   },
   {
     "id": 10,
@@ -149,9 +118,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/562/562553814dd54e001a541e4ee83a591c.jpg",
     "fecha_de_lanzamiento": "2015-01-29",
     "rating": 4.11,
-    "genre": [
-      "Adventure"
-    ]
+    "genre": "Adventure"
   },
   {
     "id": 11,
@@ -162,11 +129,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/49c/49c3dfa4ce2f6f140cc4825868e858cb.jpg",
     "fecha_de_lanzamiento": "2012-09-18",
     "rating": 4.02,
-    "genre": [
-      "Action",
-      "Shooter",
-      "RPG"
-    ]
+    "genre": "Action"
   },
   {
     "id": 12,
@@ -177,10 +140,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/b8c/b8c243eaa0fbac8115e0cdccac3f91dc.jpg",
     "fecha_de_lanzamiento": "2004-11-16",
     "rating": 4.49,
-    "genre": [
-      "Action",
-      "Shooter"
-    ]
+    "genre": "Action"
   },
   {
     "id": 13,
@@ -191,10 +151,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/bc0/bc06a29ceac58652b684deefe7d56099.jpg",
     "fecha_de_lanzamiento": "2007-08-21",
     "rating": 4.36,
-    "genre": [
-      "Action",
-      "Shooter"
-    ]
+    "genre": "Action"
   },
   {
     "id": 14,
@@ -205,12 +162,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/942/9424d6bb763dc38d9378b488603c87fa.jpg",
     "fecha_de_lanzamiento": "2010-07-21",
     "rating": 4.15,
-    "genre": [
-      "Adventure",
-      "Indie",
-      "Puzzle",
-      "Platformer"
-    ]
+    "genre": "Adventure"
   },
   {
     "id": 15,
@@ -221,11 +173,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/4be/4be6a6ad0364751a96229c56bf69be59.jpg",
     "fecha_de_lanzamiento": "2018-04-20",
     "rating": 4.58,
-    "genre": [
-      "Action",
-      "Adventure",
-      "RPG"
-    ]
+    "genre": "Action"
   },
   {
     "id": 16,
@@ -236,12 +184,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/34b/34b1f1850a1c06fd971bc6ab3ac0ce0e.jpg",
     "fecha_de_lanzamiento": "2017-09-06",
     "rating": 3.55,
-    "genre": [
-      "Action",
-      "Shooter",
-      "Adventure",
-      "Massively Multiplayer"
-    ]
+    "genre": "Action"
   },
   {
     "id": 17,
@@ -252,10 +195,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/d82/d82990b9c67ba0d2d09d4e6fa88885a7.jpg",
     "fecha_de_lanzamiento": "2015-11-09",
     "rating": 3.8,
-    "genre": [
-      "Action",
-      "RPG"
-    ]
+    "genre": "Action"
   },
   {
     "id": 18,
@@ -266,10 +206,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/c4b/c4b0cab189e73432de3a250d8cf1c84e.jpg",
     "fecha_de_lanzamiento": "2016-05-13",
     "rating": 4.38,
-    "genre": [
-      "Action",
-      "Shooter"
-    ]
+    "genre": "Action"
   },
   {
     "id": 19,
@@ -280,10 +217,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/46d/46d98e6910fbc0706e2948a7cc9b10c5.jpg",
     "fecha_de_lanzamiento": "2007-10-10",
     "rating": 3.67,
-    "genre": [
-      "Action",
-      "Shooter"
-    ]
+    "genre": "Action"
   },
   {
     "id": 0,
@@ -294,10 +228,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/73e/73eecb8909e0c39fb246f457b5d6cbbe.jpg",
     "fecha_de_lanzamiento": "2013-08-13",
     "rating": 3.51,
-    "genre": [
-      "Action",
-      "Shooter"
-    ]
+    "genre": "Action"
   },
   {
     "id": 1,
@@ -308,11 +239,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/b7d/b7d3f1715fa8381a4e780173a197a615.jpg",
     "fecha_de_lanzamiento": "2017-02-28",
     "rating": 4.3,
-    "genre": [
-      "Action",
-      "Adventure",
-      "RPG"
-    ]
+    "genre": "Action"
   },
   {
     "id": 2,
@@ -323,10 +250,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/4a0/4a0a1316102366260e6f38fd2a9cfdce.jpg",
     "fecha_de_lanzamiento": "2008-04-29",
     "rating": 4.25,
-    "genre": [
-      "Action",
-      "Adventure"
-    ]
+    "genre": "Action"
   },
   {
     "id": 3,
@@ -337,11 +261,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/8cc/8cce7c0e99dcc43d66c8efd42f9d03e3.jpg",
     "fecha_de_lanzamiento": "2015-07-07",
     "rating": 3.94,
-    "genre": [
-      "Sports",
-      "Racing",
-      "Indie"
-    ]
+    "genre": "Sports"
   },
   {
     "id": 4,
@@ -352,11 +272,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/26d/26d4437715bee60138dab4a7c8c59c92.jpg",
     "fecha_de_lanzamiento": "2020-12-10",
     "rating": 4.11,
-    "genre": [
-      "Action",
-      "Adventure",
-      "RPG"
-    ]
+    "genre": "Action"
   },
   {
     "id": 5,
@@ -367,11 +283,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/f46/f466571d536f2e3ea9e815ad17177501.jpg",
     "fecha_de_lanzamiento": "2011-05-16",
     "rating": 4.05,
-    "genre": [
-      "Action",
-      "Indie",
-      "Platformer"
-    ]
+    "genre": "Action"
   },
   {
     "id": 6,
@@ -382,10 +294,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/6fc/6fcf4cd3b17c288821388e6085bb0fc9.jpg",
     "fecha_de_lanzamiento": "2013-07-09",
     "rating": 3.06,
-    "genre": [
-      "Action",
-      "Massively Multiplayer"
-    ]
+    "genre": "Action"
   },
   {
     "id": 7,
@@ -396,11 +305,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/f87/f87457e8347484033cb34cde6101d08d.jpg",
     "fecha_de_lanzamiento": "2013-03-25",
     "rating": 3.42,
-    "genre": [
-      "Action",
-      "Shooter",
-      "Massively Multiplayer"
-    ]
+    "genre": "Action"
   },
   {
     "id": 8,
@@ -411,10 +316,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/120/1201a40e4364557b124392ee50317b99.jpg",
     "fecha_de_lanzamiento": "2010-03-16",
     "rating": 3.93,
-    "genre": [
-      "Action",
-      "Shooter"
-    ]
+    "genre": "Action"
   },
   {
     "id": 9,
@@ -425,10 +327,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/490/49016e06ae2103881ff6373248843069.jpg",
     "fecha_de_lanzamiento": "2015-09-01",
     "rating": 4.16,
-    "genre": [
-      "Action",
-      "Shooter"
-    ]
+    "genre": "Action"
   },
   {
     "id": 10,
@@ -439,9 +338,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/b45/b45575f34285f2c4479c9a5f719d972e.jpg",
     "fecha_de_lanzamiento": "2015-11-10",
     "rating": 4.03,
-    "genre": [
-      "Action"
-    ]
+    "genre": "Action"
   },
   {
     "id": 11,
@@ -452,9 +349,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/310/3106b0e012271c5ffb16497b070be739.jpg",
     "fecha_de_lanzamiento": "2015-06-23",
     "rating": 4.23,
-    "genre": [
-      "Action"
-    ]
+    "genre": "Action"
   },
   {
     "id": 12,
@@ -465,10 +360,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/8d6/8d69eb6c32ed6acfd75f82d532144993.jpg",
     "fecha_de_lanzamiento": "2012-04-23",
     "rating": 4.34,
-    "genre": [
-      "Action",
-      "Adventure"
-    ]
+    "genre": "Action"
   },
   {
     "id": 13,
@@ -479,9 +371,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/6cd/6cd653e0aaef5ff8bbd295bf4bcb12eb.jpg",
     "fecha_de_lanzamiento": "2012-04-16",
     "rating": 4.16,
-    "genre": [
-      "RPG"
-    ]
+    "genre": "RPG"
   },
   {
     "id": 14,
@@ -492,9 +382,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/b7b/b7b8381707152afc7d91f5d95de70e39.jpg",
     "fecha_de_lanzamiento": "2005-10-27",
     "rating": 3.45,
-    "genre": [
-      "Action"
-    ]
+    "genre": "Action"
   },
   {
     "id": 15,
@@ -505,10 +393,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/960/960b601d9541cec776c5fa42a00bf6c4.jpg",
     "fecha_de_lanzamiento": "2004-10-26",
     "rating": 4.51,
-    "genre": [
-      "Action",
-      "Adventure"
-    ]
+    "genre": "Action"
   },
   {
     "id": 16,
@@ -519,10 +404,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/d1a/d1a2e99ade53494c6330a0ed945fe823.jpg",
     "fecha_de_lanzamiento": "2014-09-30",
     "rating": 3.89,
-    "genre": [
-      "Action",
-      "RPG"
-    ]
+    "genre": "Action"
   },
   {
     "id": 17,
@@ -533,10 +415,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/ee3/ee3e10193aafc3230ba1cae426967d10.jpg",
     "fecha_de_lanzamiento": "2008-09-16",
     "rating": 4.06,
-    "genre": [
-      "Action",
-      "RPG"
-    ]
+    "genre": "Action"
   },
   {
     "id": 18,
@@ -547,10 +426,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/157/15742f2f67eacff546738e1ab5c19d20.jpg",
     "fecha_de_lanzamiento": "2010-02-09",
     "rating": 4.07,
-    "genre": [
-      "Action",
-      "Shooter"
-    ]
+    "genre": "Action"
   },
   {
     "id": 19,
@@ -561,10 +437,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/7a2/7a2500ee8b2c0e1ff268bb4479463dea.jpg",
     "fecha_de_lanzamiento": "2006-06-01",
     "rating": 4.38,
-    "genre": [
-      "Action",
-      "Shooter"
-    ]
+    "genre": "Action"
   },
   {
     "id": 0,
@@ -575,12 +448,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/b72/b7233d5d5b1e75e86bb860ccc7aeca85.jpg",
     "fecha_de_lanzamiento": "2019-02-04",
     "rating": 3.66,
-    "genre": [
-      "Action",
-      "Shooter",
-      "Adventure",
-      "Massively Multiplayer"
-    ]
+    "genre": "Action"
   },
   {
     "id": 1,
@@ -591,11 +459,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/198/1988a337305e008b41d7f536ce9b73f6.jpg",
     "fecha_de_lanzamiento": "2007-10-09",
     "rating": 4.45,
-    "genre": [
-      "Action",
-      "Shooter",
-      "Puzzle"
-    ]
+    "genre": "Action"
   },
   {
     "id": 2,
@@ -606,11 +470,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/4cf/4cfc6b7f1850590a4634b08bfab308ab.jpg",
     "fecha_de_lanzamiento": "2017-02-23",
     "rating": 4.41,
-    "genre": [
-      "Action",
-      "Indie",
-      "Platformer"
-    ]
+    "genre": "Action"
   },
   {
     "id": 3,
@@ -621,11 +481,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/16b/16b1b7b36e2042d1128d5a3e852b3b2f.jpg",
     "fecha_de_lanzamiento": "2016-03-11",
     "rating": 3.92,
-    "genre": [
-      "Action",
-      "Shooter",
-      "Simulation"
-    ]
+    "genre": "Action"
   },
   {
     "id": 4,
@@ -636,10 +492,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/8a0/8a02f84a5916ede2f923b88d5f8217ba.jpg",
     "fecha_de_lanzamiento": "2017-04-27",
     "rating": 4.05,
-    "genre": [
-      "Action",
-      "Platformer"
-    ]
+    "genre": "Action"
   },
   {
     "id": 5,
@@ -650,9 +503,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/8e4/8e4de3f54ac659e08a7ba6a2b731682a.jpg",
     "fecha_de_lanzamiento": "2008-11-11",
     "rating": 4.07,
-    "genre": [
-      "Action"
-    ]
+    "genre": "Action"
   },
   {
     "id": 6,
@@ -663,10 +514,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/da1/da1b267764d77221f07a4386b6548e5a.jpg",
     "fecha_de_lanzamiento": "2016-04-11",
     "rating": 4.4,
-    "genre": [
-      "Action",
-      "RPG"
-    ]
+    "genre": "Action"
   },
   {
     "id": 7,
@@ -677,12 +525,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/9fa/9fa63622543e5d4f6d99aa9d73b043de.jpg",
     "fecha_de_lanzamiento": "2012-10-22",
     "rating": 4.38,
-    "genre": [
-      "Action",
-      "Shooter",
-      "Arcade",
-      "Indie"
-    ]
+    "genre": "Action"
   },
   {
     "id": 8,
@@ -693,11 +536,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/9dd/9ddabb34840ea9227556670606cf8ea3.jpg",
     "fecha_de_lanzamiento": "2013-09-03",
     "rating": 3.72,
-    "genre": [
-      "Action",
-      "Adventure",
-      "Indie"
-    ]
+    "genre": "Action"
   },
   {
     "id": 9,
@@ -708,10 +547,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/c24/c24ec439abf4a2e92f3429dfa83f7f94.jpg",
     "fecha_de_lanzamiento": "2016-08-22",
     "rating": 3.97,
-    "genre": [
-      "Action",
-      "RPG"
-    ]
+    "genre": "Action"
   },
   {
     "id": 10,
@@ -722,10 +558,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/15c/15c95a4915f88a3e89c821526afe05fc.jpg",
     "fecha_de_lanzamiento": "2012-11-28",
     "rating": 4.24,
-    "genre": [
-      "Action",
-      "Shooter"
-    ]
+    "genre": "Action"
   },
   {
     "id": 11,
@@ -736,10 +569,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/9aa/9aa42d16d425fa6f179fc9dc2f763647.jpg",
     "fecha_de_lanzamiento": "2018-09-07",
     "rating": 4.46,
-    "genre": [
-      "Action",
-      "Adventure"
-    ]
+    "genre": "Action"
   },
   {
     "id": 12,
@@ -750,9 +580,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/be0/be01c3d7d8795a45615da139322ca080.jpg",
     "fecha_de_lanzamiento": "2016-09-15",
     "rating": 4.24,
-    "genre": [
-      "Shooter"
-    ]
+    "genre": "Shooter"
   },
   {
     "id": 13,
@@ -763,10 +591,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/b49/b4912b5dbfc7ed8927b65f05b8507f6c.jpg",
     "fecha_de_lanzamiento": "2012-06-26",
     "rating": 4.09,
-    "genre": [
-      "Action",
-      "Shooter"
-    ]
+    "genre": "Action"
   },
   {
     "id": 14,
@@ -777,11 +602,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/b54/b54598d1d5cc31899f4f0a7e3122a7b0.jpg",
     "fecha_de_lanzamiento": "2010-09-08",
     "rating": 3.65,
-    "genre": [
-      "Action",
-      "Adventure",
-      "Indie"
-    ]
+    "genre": "Action"
   },
   {
     "id": 15,
@@ -792,11 +613,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/5c0/5c0dd63002cb23f804aab327d40ef119.jpg",
     "fecha_de_lanzamiento": "2010-05-14",
     "rating": 4.1,
-    "genre": [
-      "Action",
-      "Shooter",
-      "Adventure"
-    ]
+    "genre": "Action"
   },
   {
     "id": 16,
@@ -807,9 +624,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/ec3/ec3a7db7b8ab5a71aad622fe7c62632f.jpg",
     "fecha_de_lanzamiento": "2004-11-01",
     "rating": 3.27,
-    "genre": [
-      "Action"
-    ]
+    "genre": "Action"
   },
   {
     "id": 17,
@@ -820,10 +635,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/d69/d69810315bd7e226ea2d21f9156af629.jpg",
     "fecha_de_lanzamiento": "2011-11-14",
     "rating": 3.94,
-    "genre": [
-      "Action",
-      "Adventure"
-    ]
+    "genre": "Action"
   },
   {
     "id": 18,
@@ -834,12 +646,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/6c5/6c55e22185876626881b76c11922b073.jpg",
     "fecha_de_lanzamiento": "1998-11-19",
     "rating": 4.4,
-    "genre": [
-      "Action",
-      "Shooter",
-      "Puzzle",
-      "Platformer"
-    ]
+    "genre": "Action"
   },
   {
     "id": 19,
@@ -850,10 +657,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/c80/c80bcf321da44d69b18a06c04d942662.jpg",
     "fecha_de_lanzamiento": "2014-05-19",
     "rating": 4.19,
-    "genre": [
-      "Action",
-      "Shooter"
-    ]
+    "genre": "Action"
   },
   {
     "id": 0,
@@ -864,11 +668,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/c6b/c6bfece1daf8d06bc0a60632ac78e5bf.jpg",
     "fecha_de_lanzamiento": "2009-10-20",
     "rating": 3.82,
-    "genre": [
-      "Action",
-      "Shooter",
-      "RPG"
-    ]
+    "genre": "Action"
   },
   {
     "id": 1,
@@ -879,10 +679,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/951/951572a3dd1e42544bd39a5d5b42d234.jpg",
     "fecha_de_lanzamiento": "2018-05-25",
     "rating": 4.3,
-    "genre": [
-      "Action",
-      "Adventure"
-    ]
+    "genre": "Action"
   },
   {
     "id": 2,
@@ -893,12 +690,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/d0f/d0f91fe1d92332147e5db74e207cfc7a.jpg",
     "fecha_de_lanzamiento": "2013-10-23",
     "rating": 3.64,
-    "genre": [
-      "Action",
-      "RPG",
-      "Massively Multiplayer",
-      "Indie"
-    ]
+    "genre": "Action"
   },
   {
     "id": 3,
@@ -909,11 +701,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/713/713269608dc8f2f40f5a670a14b2de94.jpg",
     "fecha_de_lanzamiento": "2016-02-25",
     "rating": 4.41,
-    "genre": [
-      "RPG",
-      "Simulation",
-      "Indie"
-    ]
+    "genre": "RPG"
   },
   {
     "id": 4,
@@ -924,11 +712,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/e6d/e6de699bd788497f4b52e2f41f9698f2.jpg",
     "fecha_de_lanzamiento": "2017-05-05",
     "rating": 4.28,
-    "genre": [
-      "Action",
-      "Shooter",
-      "RPG"
-    ]
+    "genre": "Action"
   },
   {
     "id": 5,
@@ -939,10 +723,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/709/709bf81f874ce5d25d625b37b014cb63.jpg",
     "fecha_de_lanzamiento": "2016-05-10",
     "rating": 4.5,
-    "genre": [
-      "Action",
-      "Adventure"
-    ]
+    "genre": "Action"
   },
   {
     "id": 6,
@@ -953,11 +734,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/1bd/1bd2657b81eb0c99338120ad444b24ff.jpg",
     "fecha_de_lanzamiento": "2017-12-20",
     "rating": 3.29,
-    "genre": [
-      "Action",
-      "Shooter",
-      "Massively Multiplayer"
-    ]
+    "genre": "Action"
   },
   {
     "id": 7,
@@ -968,13 +745,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/48c/48cb04ca483be865e3a83119c94e6097.jpg",
     "fecha_de_lanzamiento": "2004-12-24",
     "rating": 3.79,
-    "genre": [
-      "Action",
-      "Adventure",
-      "Simulation",
-      "Casual",
-      "Indie"
-    ]
+    "genre": "Action"
   },
   {
     "id": 8,
@@ -984,11 +755,8 @@ const games = [
     "plataformas": "PlayStation 4",
     "imagen": "https://media.rawg.io/media/games/e2d/e2d3f396b16dded0f841c17c9799a882.jpg",
     "fecha_de_lanzamiento": "2011-05-17",
-    "rating": 4.16,
-    "genre": [
-      "Action",
-      "Adventure"
-    ]
+    "rating": 4.17,
+    "genre": "Action"
   },
   {
     "id": 9,
@@ -999,11 +767,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/234/23410661770ae13eac11066980834367.jpg",
     "fecha_de_lanzamiento": "2013-11-12",
     "rating": 3.52,
-    "genre": [
-      "Action",
-      "Arcade",
-      "Fighting"
-    ]
+    "genre": "Action"
   },
   {
     "id": 10,
@@ -1014,29 +778,10 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/e04/e04963f3ac4c4fa83a1dc0b9231e50db.jpg",
     "fecha_de_lanzamiento": "2010-10-20",
     "rating": 3.97,
-    "genre": [
-      "Indie",
-      "Platformer"
-    ]
+    "genre": "Indie"
   },
   {
     "id": 11,
-    "idApi": 5563,
-    "nombre": "Fallout: New Vegas",
-    "descripcion": "<p>Fallout: New Vegas is the second instalment after the reboot of the Fallout series and a fourth instalment in the franchise itself. Being a spin-off and developed by a different studio, Obsidian Entertainment, Fallout: New Vegas follows the Courier as he&#39;s ambushed by a gang lead by Benny, stealing a Platinum Chip and heavily wounded, practically left for dead. As he wakes up, he minds himself in the company of Doc Mitchell who saved our protagonist and patches him up. This section of the game is given for customising your characters, picking traits and the look of the main hero before embarking on his journey to retrieve Platinum Chip.</p>\n<p>New Vegas has very similar gameplay to Fallout 3 with a few improvements, such as iron sights for most of the guns, new animations for VATS kills, new perk Survivor, which allowed you to have more benefits from drinks and food you could craft and gambling in the casinos. Expanded crafting system, weapon modification system force player to scavenge for resources. Reputation system was reintroduced in New Vegas as old reputation system from Fallout 2, with Karma making a serious impact on the game.</p>",
-    "plataformas": "Xbox One",
-    "imagen": "https://media.rawg.io/media/games/995/9951d9d55323d08967640f7b9ab3e342.jpg",
-    "fecha_de_lanzamiento": "2010-10-19",
-    "rating": 4.44,
-    "genre": [
-      "Action",
-      "Shooter",
-      "Adventure",
-      "RPG"
-    ]
-  },
-  {
-    "id": 12,
     "idApi": 362,
     "nombre": "For Honor",
     "descripcion": "<p>For Honor is an action game developed by Ubisoft Montreal. The game mixes the element of fighting and hacks and slashes with a heavy focus on multiplayer. </p>\n<h3>Plot and setting</h3>\n<p>The game takes place in the medieval fantasy world and follows the conflict between three factions: the Iron Legion, the Chosen, and the Warborn. Each fraction represents a specific medieval culture: knights, samurai, and Vikings respectively. </p>\n<h3>Gameplay</h3>\n<p>The gameplay incorporates elements of the hack-and-slash and fighting game. The player can choose from more than 12 different characters from each of the fractions. The all have their unique moves, weapons, characteristics, abilities, and executions. The fighting system is based on the duel between players. It incorporates the variety of moves such as attacks from different angles, blocks, dodges, stuns, counterattacks, unblockable attacks, and faints. <br />\nEach character has its progression system which allows one to gain new perks, upgrade weapons, armor as well as the increase in rank that affects matchmaking process. <br />\nThere are six multiplayer modes: they primarily differ from each other by the number of the players involved in the conflict. The multiplayer modes do not feature any PvE battles — the leftovers are team elimination, flag capture and one on one battles.</p>",
@@ -1044,10 +789,18 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/4e0/4e0e7b6d6906a131307c94266e5c9a1c.jpg",
     "fecha_de_lanzamiento": "2017-02-13",
     "rating": 3.3,
-    "genre": [
-      "Action",
-      "Massively Multiplayer"
-    ]
+    "genre": "Action"
+  },
+  {
+    "id": 12,
+    "idApi": 5563,
+    "nombre": "Fallout: New Vegas",
+    "descripcion": "<p>Fallout: New Vegas is the second instalment after the reboot of the Fallout series and a fourth instalment in the franchise itself. Being a spin-off and developed by a different studio, Obsidian Entertainment, Fallout: New Vegas follows the Courier as he&#39;s ambushed by a gang lead by Benny, stealing a Platinum Chip and heavily wounded, practically left for dead. As he wakes up, he minds himself in the company of Doc Mitchell who saved our protagonist and patches him up. This section of the game is given for customising your characters, picking traits and the look of the main hero before embarking on his journey to retrieve Platinum Chip.</p>\n<p>New Vegas has very similar gameplay to Fallout 3 with a few improvements, such as iron sights for most of the guns, new animations for VATS kills, new perk Survivor, which allowed you to have more benefits from drinks and food you could craft and gambling in the casinos. Expanded crafting system, weapon modification system force player to scavenge for resources. Reputation system was reintroduced in New Vegas as old reputation system from Fallout 2, with Karma making a serious impact on the game.</p>",
+    "plataformas": "Xbox One",
+    "imagen": "https://media.rawg.io/media/games/995/9951d9d55323d08967640f7b9ab3e342.jpg",
+    "fecha_de_lanzamiento": "2010-10-19",
+    "rating": 4.44,
+    "genre": "Action"
   },
   {
     "id": 13,
@@ -1058,9 +811,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/55e/55ee6432ac2bf224610fa17e4c652107.jpg",
     "fecha_de_lanzamiento": "2010-09-21",
     "rating": 4.29,
-    "genre": [
-      "Strategy"
-    ]
+    "genre": "Strategy"
   },
   {
     "id": 14,
@@ -1071,10 +822,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/ebd/ebdbb7eb52bd58b0e7fa4538d9757b60.jpg",
     "fecha_de_lanzamiento": "2008-10-13",
     "rating": 4.38,
-    "genre": [
-      "Action",
-      "Shooter"
-    ]
+    "genre": "Action"
   },
   {
     "id": 15,
@@ -1085,11 +833,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/4e6/4e6e8e7f50c237d76f38f3c885dae3d2.jpg",
     "fecha_de_lanzamiento": "2012-09-25",
     "rating": 4.37,
-    "genre": [
-      "Action",
-      "Adventure",
-      "RPG"
-    ]
+    "genre": "Action"
   },
   {
     "id": 16,
@@ -1100,9 +844,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/849/849414b978db37d4563ff9e4b0d3a787.jpg",
     "fecha_de_lanzamiento": "2013-10-29",
     "rating": 4.13,
-    "genre": [
-      "Action"
-    ]
+    "genre": "Action"
   },
   {
     "id": 17,
@@ -1113,10 +855,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/f6b/f6bed028b02369d4cab548f4f9337e81.jpg",
     "fecha_de_lanzamiento": "2016-11-10",
     "rating": 4.26,
-    "genre": [
-      "Action",
-      "RPG"
-    ]
+    "genre": "Action"
   },
   {
     "id": 18,
@@ -1127,11 +866,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/63f/63f0e68688cad279ed38cde931dbfcdb.jpg",
     "fecha_de_lanzamiento": "2017-08-07",
     "rating": 4.24,
-    "genre": [
-      "Action",
-      "Adventure",
-      "Indie"
-    ]
+    "genre": "Action"
   },
   {
     "id": 19,
@@ -1142,10 +877,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/0bd/0bd5646a3d8ee0ac3314bced91ea306d.jpg",
     "fecha_de_lanzamiento": "2013-06-25",
     "rating": 3.09,
-    "genre": [
-      "Strategy",
-      "Simulation"
-    ]
+    "genre": "Strategy"
   },
   {
     "id": 0,
@@ -1156,10 +888,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/62c/62c7c8b28a27b83680b22fb9d33fc619.jpg",
     "fecha_de_lanzamiento": "2016-10-27",
     "rating": 4.46,
-    "genre": [
-      "Action",
-      "RPG"
-    ]
+    "genre": "Action"
   },
   {
     "id": 1,
@@ -1170,10 +899,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/d46/d46373f39458670305704ef089387520.jpg",
     "fecha_de_lanzamiento": "2012-11-19",
     "rating": 3.73,
-    "genre": [
-      "Action",
-      "Shooter"
-    ]
+    "genre": "Action"
   },
   {
     "id": 2,
@@ -1184,10 +910,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/13a/13a528ac9cf48bbb6be5d35fe029336d.jpg",
     "fecha_de_lanzamiento": "2002-10-27",
     "rating": 4.45,
-    "genre": [
-      "Action",
-      "Adventure"
-    ]
+    "genre": "Action"
   },
   {
     "id": 3,
@@ -1198,10 +921,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/3cf/3cff89996570cf29a10eb9cd967dcf73.jpg",
     "fecha_de_lanzamiento": "2010-01-26",
     "rating": 4.48,
-    "genre": [
-      "Action",
-      "RPG"
-    ]
+    "genre": "Action"
   },
   {
     "id": 4,
@@ -1212,10 +932,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/364/3642d850efb217c58feab80b8affaa89.jpg",
     "fecha_de_lanzamiento": "2014-07-29",
     "rating": 4.69,
-    "genre": [
-      "Action",
-      "Adventure"
-    ]
+    "genre": "Action"
   },
   {
     "id": 5,
@@ -1226,9 +943,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/174/174fabfca02d5730531bab2153a7dfcb.jpg",
     "fecha_de_lanzamiento": "2006-05-01",
     "rating": 3.24,
-    "genre": [
-      "Action"
-    ]
+    "genre": "Action"
   },
   {
     "id": 6,
@@ -1239,11 +954,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/253/2534a46f3da7fa7c315f1387515ca393.jpg",
     "fecha_de_lanzamiento": "2019-08-27",
     "rating": 4.16,
-    "genre": [
-      "Action",
-      "Shooter",
-      "Adventure"
-    ]
+    "genre": "Action"
   },
   {
     "id": 7,
@@ -1254,10 +965,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/559/559bc0768f656ad0c63c54b80a82d680.jpg",
     "fecha_de_lanzamiento": "2019-11-15",
     "rating": 4.14,
-    "genre": [
-      "Action",
-      "Adventure"
-    ]
+    "genre": "Action"
   },
   {
     "id": 8,
@@ -1268,10 +976,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/2ad/2ad87a4a69b1104f02435c14c5196095.jpg",
     "fecha_de_lanzamiento": "2019-11-08",
     "rating": 4.33,
-    "genre": [
-      "Action",
-      "Adventure"
-    ]
+    "genre": "Action"
   },
   {
     "id": 9,
@@ -1282,11 +987,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/dd5/dd50d4266915d56dd5b63ae1bf72606a.jpg",
     "fecha_de_lanzamiento": "2016-04-21",
     "rating": 3.78,
-    "genre": [
-      "Action",
-      "Simulation",
-      "Indie"
-    ]
+    "genre": "Action"
   },
   {
     "id": 10,
@@ -1297,10 +998,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/7ac/7aca7ccf0e70cd0974cb899ab9e5158e.jpg",
     "fecha_de_lanzamiento": "2014-03-18",
     "rating": 3.89,
-    "genre": [
-      "Action",
-      "Shooter"
-    ]
+    "genre": "Action"
   },
   {
     "id": 11,
@@ -1311,10 +1009,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/5bb/5bb55ccb8205aadbb6a144cf6d8963f1.jpg",
     "fecha_de_lanzamiento": "2015-11-30",
     "rating": 3.38,
-    "genre": [
-      "Action",
-      "Shooter"
-    ]
+    "genre": "Action"
   },
   {
     "id": 12,
@@ -1325,9 +1020,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/48e/48e63bbddeddbe9ba81942772b156664.jpg",
     "fecha_de_lanzamiento": "2004-11-01",
     "rating": 3.74,
-    "genre": [
-      "Shooter"
-    ]
+    "genre": "Shooter"
   },
   {
     "id": 13,
@@ -1338,11 +1031,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/530/5302dd22a190e664531236ca724e8726.jpg",
     "fecha_de_lanzamiento": "2014-10-13",
     "rating": 3.55,
-    "genre": [
-      "Action",
-      "Shooter",
-      "RPG"
-    ]
+    "genre": "Action"
   },
   {
     "id": 14,
@@ -1353,10 +1042,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/a6c/a6ccd34125c594abf1a9c9821b9a715d.jpg",
     "fecha_de_lanzamiento": "2007-11-16",
     "rating": 4.39,
-    "genre": [
-      "Action",
-      "RPG"
-    ]
+    "genre": "Action"
   },
   {
     "id": 15,
@@ -1367,10 +1053,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/214/214b29aeff13a0ae6a70fc4426e85991.jpg",
     "fecha_de_lanzamiento": "2015-03-24",
     "rating": 4.41,
-    "genre": [
-      "Action",
-      "RPG"
-    ]
+    "genre": "Action"
   },
   {
     "id": 16,
@@ -1381,10 +1064,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/aa3/aa36ba4b486a03ddfaef274fb4f5afd4.jpg",
     "fecha_de_lanzamiento": "2015-04-07",
     "rating": 3.86,
-    "genre": [
-      "Action",
-      "Fighting"
-    ]
+    "genre": "Action"
   },
   {
     "id": 17,
@@ -1395,10 +1075,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/7a4/7a45e4cdc5b07f316d49cf147b083b27.jpg",
     "fecha_de_lanzamiento": "2014-08-25",
     "rating": 4.12,
-    "genre": [
-      "Action",
-      "Shooter"
-    ]
+    "genre": "Action"
   },
   {
     "id": 18,
@@ -1409,12 +1086,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/f99/f9979698c43fd84c3ab69280576dd3af.jpg",
     "fecha_de_lanzamiento": "2011-07-20",
     "rating": 4.15,
-    "genre": [
-      "Action",
-      "Adventure",
-      "RPG",
-      "Indie"
-    ]
+    "genre": "Action"
   },
   {
     "id": 19,
@@ -1425,10 +1097,7 @@ const games = [
     "imagen": "https://media.rawg.io/media/games/9c4/9c47f320eb73c9a02d462e12f6206b26.jpg",
     "fecha_de_lanzamiento": "2000-11-01",
     "rating": 4.04,
-    "genre": [
-      "Action",
-      "Shooter"
-    ]
+    "genre": "Action"
   }
 ];
 

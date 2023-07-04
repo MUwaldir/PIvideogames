@@ -1,0 +1,54 @@
+.container {
+   height: 4rem;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   background: linear-gradient(to bottom right, #000000, #4f148a, #000000);
+
+  
+}
+
+.container input {
+    border-radius: 0.5rem;
+    height: 25px;
+    margin-right: 2px;
+    width: 10rem;
+    border-radius: rem;
+}
+
+.container button {
+    border-radius: 0.5rem;
+    width: 6rem;
+    height: 2rem;
+    color: white;
+    background-color: black;
+   
+}
+.container button:hover{
+    color: white;
+    background-color: #4f148a;
+}
+
+  .error-message{
+    color: rgb(255, 0, 0);
+    /* background-color: rgb(255, 255, 255); */
+    padding: .2rem;
+    border-radius: .2rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+  @media (max-width: 600px) {
+    .container{
+        flex-direction: column;
+        height: 10rem;
+    }
+    .container input{
+        width: 20rem;
+    }
+    .input-error{
+        padding: 0;
+        margin: 0;
+    }
+  }
+  

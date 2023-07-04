@@ -1,0 +1,30 @@
+.title_videogames{
+    color: black;
+}
+
+.containerVideogames{
+    padding-top: 2rem;
+}
+.pagination2{
+    padding: 2rem;
+}
+
+.btnPagination{
+    margin: .3rem;
+    font-size: 1rem;
+}
+.btnPagination:hover{
+    font-weight: bold;
+    color: white;
+    /* background: linear-gradient(to bottom right, #000000, #4f148a, #000000); */
+    background-color: black;
+    border-radius: .2rem;
+    border: 0;
+   
+}
+.btnPagination:disabled{
+    color: white;
+     background: linear-gradient(to bottom right, #646464, #a69eae, #5e5e5e);
+     font-size: 1rem;
+     border-radius: .2rem;
+}
