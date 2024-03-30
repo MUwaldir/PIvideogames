@@ -5,6 +5,7 @@ const createVideogame = require("../controllers/createVideogame");
 const getVideogameId = require("../controllers/getVideogameId");
 const getVideogameName = require("../controllers/getVideogameName");
 const getDatabd = require("../controllers/getDatabd");
+const getVideogameByGenre = require("../controllers/getVideogameByGenre");
 
 // Importar todos los routers;
 // Ejemplo: const authRouter = require('./auth.js');
@@ -23,6 +24,9 @@ router.get("/videogames/databd", getDatabd);
 router.get("/videogames/:idVideogame", getVideogameId);
 // ruta GET /videogame/name?=""
 router.get("/videogame/name", getVideogameName);
+// get videogame por genre
+router.get("/videogamebygenre/:genreId ", getVideogameByGenre);
+
 
 // RUTA POST /vidoegames
 router.post("/videogames", createVideogame);

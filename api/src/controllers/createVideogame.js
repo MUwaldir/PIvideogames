@@ -10,7 +10,7 @@ const createVideogame = async (req, res) => {
     rating,
     genre,
   } = req.body;
-
+console.log(req.body);
   // const genre = ['uno','dos','tres']
   try {
     //  se utiliza el método findOne de Sequelize para buscar un videojuego existente
@@ -24,6 +24,7 @@ const createVideogame = async (req, res) => {
     }
 
     const newVideogame = await Videogame.create({
+     
       nombre,
       descripcion,
       plataformas,
@@ -33,16 +34,25 @@ const createVideogame = async (req, res) => {
     });
     const createdGenres = await Promise.all(
       genre.map((genreName) =>
-        Genre.create({
-          nombre: genreName,
-        })
+        // Genre.create({
+        //   nombre: genreName,
+        // })
+        {
+          return Genre.findOrCreate({ where: { nombre: genreName } });
+        }
       )
     );
 
-    await newVideogame.addGenres(createdGenres);
+    // Obtener los IDs de los géneros creados
+    const genreIds = createdGenres.map((genre) => genre[0].id);
+
+    // 3. Asociar los géneros al videojuego
+
+    await newVideogame.addGenres(genreIds);
 
     res.status(200).json(newVideogame);
   } catch (error) {
+    console.log(error);
     res.status(400).json({ msg: error.message });
   }
 };
