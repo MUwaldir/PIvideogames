@@ -3,8 +3,10 @@ import { useState } from "react";
 import "./Form.css";
 import { validarNombre } from "../actions";
 import { validateForm } from "./validaciones";
+import { useSelector } from "react-redux";
 function FormVideogame() {
   const [errors, setErrors] = useState({});
+  const genres = useSelector((state) => state.genres);
   // Estados para los campos del formulario
   const [nombre, setNombre] = useState("");
   const [imagen, setImagen] = useState("");
@@ -46,6 +48,7 @@ function FormVideogame() {
     // antes de enviar validar
     const validationErrors = validateForm(nuevoVideojuego);
     console.log(validationErrors);
+    console.log(nuevoVideojuego);
     if (Object.keys(validationErrors).length === 0) {
       // No hay errores, puedes continuar con el envío del formulario
 
@@ -177,33 +180,21 @@ function FormVideogame() {
           <div className="form-group">
             <label htmlFor="generos">Géneros:</label>
             {errors.genre && <p className="error-message">{errors.genre}</p>}
+            <p className="instructions">
+              (Mantén presionada la tecla Ctrl/Cmd para seleccionar varias
+              opciones)
+            </p>
             <select
               multiple
               id="generos"
               value={genre}
               onChange={handleGeneroChange}
             >
-              <option value="Action">Action</option>
-              <option value="Indie">Indie</option>
-              <option value="Adventure">Adventure</option>
-              <option value="RPG">RPG</option>
-              <option value="Strategy">Strategy</option>
-              <option value="Shooter">Shooter</option>
-              <option value="casual">Casual</option>
-              <option value="Simulation">Simulation</option>
-              <option value="Puzzle">Puzzle</option>
-              <option value="Arcade">Arcade</option>
-              <option value="Platformer">Platformer</option>
-              <option value="Massively Multiplayer">
-                Massively Multiplayer
-              </option>
-              <option value="Racing">Racing</option>
-              <option value="Sports">Sports</option>
-              <option value="Fighting">Fighting</option>
-              <option value="Family">Family</option>
-              <option value="Board Games">Board Games</option>
-              <option value="Educational">Educational</option>
-              <option value="Card">Card</option>
+              {genres.map((g) => (
+                <option key={g.id} value={g.nombre}>
+                  {g.nombre}
+                </option>
+              ))}
             </select>
           </div>
 

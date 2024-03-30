@@ -5,6 +5,16 @@ export const SORT_VIDEOGAMES = "SORT_VIDEOGAMES";
 export const GET_DATANAME = "GET _DATANAME";
 export const GET_DATABD = "GET_DATABD";
 export const GET_DETAILID = "GET_DETAILID";
+export const FILTER_GENRE = "FILTER_GENRE";
+export const GET_GENRES = "GET_GENRES";
+export const DELETE_FILTEREDDATAGENRE = "DELETE_FILTEREDDATAGENRE";
+export const FILTER_NOMBRE = "FILTER_NOMBRE";
+
+
+
+
+
+
 
 // codgo  async await
 export const getVideogame = () => {
@@ -20,6 +30,20 @@ export const getVideogame = () => {
     }
   };
 };
+
+export const getGenres = () => {
+  return async (dispatch) => {
+    try {
+      const { data } = await axios.get("http://localhost:3001/genres");
+      dispatch({
+        type: GET_GENRES,
+        payload: data,
+      });
+    } catch (error) {
+      throw new error(error.message);
+    }
+  };
+}
 
 export const getdataName = (name) => {
   return async (dispatch) => {
@@ -72,12 +96,37 @@ export const getDetailID = (id) => {
       const { data } = await axios.get(
         `http://localhost:3001/videogames/${id}`
       );
+      // console.log(data)
       dispatch({
         type: GET_DETAILID,
-        payload: data,
+        payload: data[0],
       });
     } catch (error) {
       throw new error(error.message);
     }
   };
 };
+
+export const filterGenre = (genre) => (dispatch) => {
+
+  return dispatch ( {
+      type: FILTER_GENRE,
+      payload:genre
+  })
+
+}
+
+export const DeleteFilteredDataGenre =  () => (dispatch) => {
+  return dispatch ( {
+    type: DELETE_FILTEREDDATAGENRE,
+   
+})
+}
+
+export const filterByNombre =  (nombre) => (dispatch) => {
+  return dispatch ( {
+    type: FILTER_NOMBRE,
+    payload:nombre
+   
+})
+}

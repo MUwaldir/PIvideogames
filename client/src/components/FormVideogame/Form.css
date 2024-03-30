@@ -64,7 +64,11 @@ button[type="submit"]:hover {
 input , textarea{
   box-sizing: border-box;
 }
-
+.instructions {
+  color: white; /* Color de texto más suave */
+  font-size: 0.9em; /* Tamaño de fuente más pequeño */
+  margin-top: 0.5em; /* Espacio superior */
+}
 
 /* Responsive Styles */
 

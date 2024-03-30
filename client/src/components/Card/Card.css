@@ -40,6 +40,14 @@
     font-size: 14px;
     color: #666;
   }
+  .accion {
+    color: red; /* Por ejemplo, cambia el color de texto a rojo para el género "Acción" */
+  }
+  
+  .normal {
+    color: black; /* Estilo normal para otros géneros */
+  }
+  
   
   @media (max-width: 600px) {
     

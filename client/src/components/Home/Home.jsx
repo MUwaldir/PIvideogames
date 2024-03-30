@@ -5,7 +5,12 @@ import { useEffect, useState } from "react";
 
 import Pagination from "../Pagination/Pagination";
 import SearchBar from "../searchBar/SearchBar";
-import { getDataBD } from "../../redux/actions";
+import {
+  DeleteFilteredDataGenre,
+  filterGenre,
+  getDataBD,
+  getVideogame,
+} from "../../redux/actions";
 
 import { getdataName } from "../../redux/actions";
 
@@ -13,22 +18,38 @@ function Home({ currentPage, setCurrentPage }) {
   const [isLoading, setIsLoading] = useState(true);
   const dispatch = useDispatch();
   const dataAll = useSelector((state) => state.dataVideogames);
+  const dataFilterGenre = useSelector((state) => state.filterVidegameByGenre);
+  const dataFilterNombre = useSelector((state) => state.filterName);
+
   const dataBd = useSelector((state) => state.dataBD);
   const datName = useSelector((state) => state.dataName);
+  const genres = useSelector((state) => state.genres);
 
   const [sortedData, setSortedData] = useState([]);
   const [sortOrder, setSortOrder] = useState("");
   const [sortRating, setSortRating] = useState("");
   const [sortOrigen, setSortOrigen] = useState("");
+  useEffect(() => {
+    dispatch(getVideogame())
+  }, []);
+
+  useEffect(() => {
+    if (dataFilterNombre) {
+      setSortedData(dataFilterNombre);
+    }
+  },[dataFilterNombre])
 
   useEffect(() => {
     console.log("hi");
-    setSortedData([...dataAll, ...dataBd]);
+    // setSortedData([...dataAll, ...dataBd]);
+    setSortedData(dataAll);
+
     setIsLoading(false);
   }, [dataAll]);
 
   const handleShowAll = () => {
-    setSortedData([...dataAll, ...dataBd]);
+    setSortedData(dataAll);
+    dispatch(DeleteFilteredDataGenre());
     setIsLoading(false);
   };
 
@@ -38,6 +59,12 @@ function Home({ currentPage, setCurrentPage }) {
     // );
     dispatch(getdataName(name));
   };
+
+  useEffect(() => {
+    if (dataFilterGenre) {
+      setSortedData(dataFilterGenre);
+    }
+  }, [dataFilterGenre]);
 
   useEffect(() => {
     setSortedData(datName);
@@ -74,7 +101,8 @@ function Home({ currentPage, setCurrentPage }) {
     setSortOrigen(order);
     console.log(sortOrigen);
   };
-
+  console.log(dataAll);
+  console.log(dataFilterGenre)
   const Origen = () => {
     console.log(sortOrigen);
     if (sortOrigen === "api") {
@@ -120,33 +148,35 @@ function Home({ currentPage, setCurrentPage }) {
   // filtro por genero
   const [selectedGenre, setSelectedGenre] = useState("");
   useEffect(() => {
-    filterGenre();
+    // filterGenre();
+    dispatch(filterGenre(selectedGenre));
     setIsLoading(false);
   }, [selectedGenre]);
 
   const handleGenreChange = (event) => {
     setSelectedGenre(event.target.value);
+    console.log(event.target.value);
   };
 
-  const filterGenre = () => {
-    const filteredGames = selectedGenre
-      ? [...dataAll, ...dataBd].filter((game) =>
-          game.genre.includes(selectedGenre)
-        )
-      : [...dataAll, ...dataBd];
+  // const filterGenre = () => {
+  //   const filteredGames = selectedGenre
+  //     ? [...dataAll, ...dataBd].filter((game) =>
+  //         game.genre.includes(selectedGenre)
+  //       )
+  //     : [...dataAll, ...dataBd];
 
-    if (filteredGames.length !== 0) {
-      setSortedData(filteredGames);
-    } else if (filteredGames.length === 0 && selectedGenre !== "") {
-      alert(`no existe videjuego con el genero ${selectedGenre}`);
-      setSortedData(sortedData);
-    }
-  };
-
+  //   if (filteredGames.length !== 0) {
+  //     setSortedData(filteredGames);
+  //   } else if (filteredGames.length === 0 && selectedGenre !== "") {
+  //     alert(`no existe videjuego con el genero ${selectedGenre}`);
+  //     setSortedData(sortedData);
+  //   }
+  // };
+  // console.log(genres)
   return (
     <div>
       <div>
-        <SearchBar onSearch={searchName} />
+        <SearchBar  />
       </div>
       <div className="all">
         <button onClick={handleShowAll}>Mostrar Todo</button>
@@ -180,7 +210,7 @@ function Home({ currentPage, setCurrentPage }) {
             </select>
           </div>
 
-          <div className="generos">
+          {/* <div className="generos">
             <select id="generos" onChange={handleGenreChange}>
               <option value="">Generos</option>
               <option value="Action">Action</option>
@@ -204,6 +234,13 @@ function Home({ currentPage, setCurrentPage }) {
               <option value="Board Games">Board Games</option>
               <option value="Educational">Educational</option>
               <option value="Card">Card</option>
+            </select>
+          </div> */}
+          <div className="generos">
+            <select name="genres" id="genres" onChange={handleGenreChange}>
+              {genres.map((genre) => (
+                <option value={genre.nombre}>{genre.nombre}</option>
+              ))}
             </select>
           </div>
         </div>

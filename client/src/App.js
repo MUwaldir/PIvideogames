@@ -5,7 +5,7 @@ import Detail from "./components/Detail/Detail";
 import FormVideogame from "./components/FormVideogame/FormVideogame";
 import Home from "./components/Home/Home";
 import Nav from "./components/Nav/Nav";
-import { getDataBD, getVideogame } from "./redux/actions";
+import { getDataBD, getGenres, getVideogame } from "./redux/actions";
 import { useEffect, useState } from "react";
 import LandingPage from "./components/LandingPage/LandingPage";
 import { useDispatch } from "react-redux";
@@ -18,6 +18,7 @@ function App() {
   useEffect(() => {
     dispatch(getVideogame());
     dispatch(getDataBD());
+    dispatch(getGenres());
   }, []);
 
   return (

@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import Card from "../Card/Card";
 import "./Pagination.css";
 function Pagination({ data, currentPage, setCurrentPage }) {
+  useEffect(() => {
+    // Reiniciar la página actual a 1 cuando cambia la data
+    setCurrentPage(1);
+  }, [data, setCurrentPage]);
   const ArrayData = data;
 
   // const [currentPage, setCurrentPage] = useState(1);
@@ -76,7 +80,7 @@ function Pagination({ data, currentPage, setCurrentPage }) {
             nombre={el.nombre}
             image={el.imagen}
             id={el.id}
-            genre={el.genre ? el.genre : []}
+            genres={el.genres ? el.genres : []}
             rating={el.rating}
             idApi={el.idApi}
           />
